@@ -68,7 +68,12 @@ export async function GET() {
         {
           type: ICalAlarmType.display,
         triggerBefore: 86400, //notify 24 hours ahead
-          description: 'Camping is tomorrow :)'
+          description: 'Camping is tomorrow xD'
+        },
+        {
+        type: ICalAlarmType.display,
+        triggerBefore: 1800, //notify 30 mins ahead
+        description: 'Time to head out! 🏕️'
         }
       ]
     });
