@@ -67,7 +67,7 @@ export async function GET() {
       alarms: [
         {
           type: ICalAlarmType.display,
-          trigger: "-P1D", //notify 24 hours ahead
+        trigger:-86400, //notify 24 hours ahead
           description: 'Camping is tomorrow :)'
         }
       ]
