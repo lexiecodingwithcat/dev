@@ -67,7 +67,7 @@ export async function GET() {
       alarms: [
         {
           type: ICalAlarmType.display,
-          trigger: new Date(start.getTime() - 24 * 60 * 60 * 1000) //notify 24 hours ahead
+          trigger: "-PT24H" //notify 24 hours ahead
         }
       ]
     });
